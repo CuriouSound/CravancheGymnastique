@@ -23,19 +23,6 @@ _ INITIALISE TWIG :
         php bin/console make:entity nomDeTable
             1) choix du nom de la class
                 crée un fichier représentant l'entité(dans le fichier Entity)
-Battle for Azeroth Cinematic - Horde Intro (Spoilers)
-￼Pause
-￼
-Mute
-Heure actuelle 
-0:05
-/
-Durée 
-2:59
-Chargé : 15.81%
- 
-￼Plein écran
-￼
                 crée un fichier repository charger de communiquer(push, pull les info) avec la BDD
             2) Une fois satisfait faire make:migration (crée un fichier migration dans src/Entity/Migrations)
             3) doctrine:migrations:migrate (fait la migration)
