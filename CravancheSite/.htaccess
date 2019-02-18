@@ -1,0 +1,10 @@
+#ce fichier redirige toute les requêtes vers index.php avec ce qu'il y a après l'url de base dans une variable $page
+#par exemple 'localhost/MVC2/film' devient en réalité 'localhost/MVC2/index.php?page=film'
+
+RewriteEngine on
+
+RewriteCond  %{REQUEST_FILENAME} !-f
+RewriteCond  %{REQUEST_FILENAME} !-d
+# Si tu vois home dans URL tu comprends index.php?page=home
+RewriteRule ^([A-Za-z]+)$ index.php?page=$1 [NC,L,QSA]
+RewriteRule ^([A-Za-z]+)/([a-zA-Z0-9]+)$ index.php?page=$1&id=$2 [NC,L,QSA]
