@@ -1,5 +1,5 @@
 <?php
-
+connard
 $host = 'localhost';
 	$db = '';
 	$user ='';
