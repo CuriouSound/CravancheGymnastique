@@ -1,0 +1,53 @@
+
+- CREE LE PROJET :
+    composer create-project symfony/website-skeleton nomDuProjet
+
+- INITIALISE COMPOSER :
+    composer init
+
+_ INITIALISE TWIG :
+    composer require "twig/twig:^2.0"
+
+- ACCEDER AU PROJET :
+    php bin/console server:run
+    php -S 127.0.0.1:8000 -t public
+
+- CREER CONTROLLER :
+    php bin/console make:Controller ProjectController
+
+- COMMANDES BDD :
+    - Modifier user, mdp, nomBDD dans le .Env
+    - Créer la BDD:
+        php bin/console doctrine:database:create
+    - Class représentant un enregistrement en BDD :
+        php bin/console make:entity nomDeTable
+            1) choix du nom de la class
+                crée un fichier représentant l'entité(dans le fichier Entity)
+Battle for Azeroth Cinematic - Horde Intro (Spoilers)
+￼Pause
+￼
+Mute
+Heure actuelle 
+0:05
+/
+Durée 
+2:59
+Chargé : 15.81%
+ 
+￼Plein écran
+￼
+                crée un fichier repository charger de communiquer(push, pull les info) avec la BDD
+            2) Une fois satisfait faire make:migration (crée un fichier migration dans src/Entity/Migrations)
+            3) doctrine:migrations:migrate (fait la migration)
+    - Ajouter une table en BDD :
+        php bin/console make:entity nomDeTable (si non existant rajoute une colonne sinon ajoute une table)
+
+- AFFICHER COMMANDES SYMFONY :
+    php bin/console
+
+=== DEBUG ===
+    php bin/console debug:container
+    php bin/console debug:autowiring
+
+    https://www.grafikart.fr/tutoriels/doctrine-decouverte-1066
+    Arret a 27min

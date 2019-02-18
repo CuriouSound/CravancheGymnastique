@@ -1,0 +1,33 @@
+- BIN : (Contient des éxécutable permettant d'effectuer des operations)
+    console
+    phpunit(test unitaire)
+
+- CONFIG : (Contient la configuration du projet)
+    routes 
+    services
+    packages(configuration lier aux differents packages(configuration base de donnée..))
+
+- PUBLIC : (le serveur doit pointer vers ce dossier pour tomber sur index)
+    index
+
+- SRC : (Contient le code php)
+    Controller
+
+- TEMPLATES : (Vues)
+    TWIG
+
+- TEST : (Contient les test unitaire)
+
+- Translation : (Utile pour le multilangue)
+
+- VAR : NE PAS TOUCHER (Contient le cache et les logs)
+    Le cache
+    Les logs
+
+- VENDOR : (Dossier de composer)
+
+- .ENV :
+    Modifier pour accéder à la BDD
+    Modifier pour envoi de mail
+
+On touche au fichier : CONFIG, SRC, TEMPLATES
