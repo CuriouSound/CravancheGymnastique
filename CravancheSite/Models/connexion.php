@@ -1,5 +1,5 @@
 <?php
-test
+
 $host = 'localhost';
 	$db = '';
 	$user ='';
