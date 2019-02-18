@@ -1,7 +1,5 @@
 CravancheSite/Models/Connexion.php
 
-CravancheAdmin/GymAdmin/
-
 ###> symfony/framework-bundle ###
 CravancheAdmin/GymAdmin/.env.local
 CravancheAdmin/GymAdmin/.env.local.php
