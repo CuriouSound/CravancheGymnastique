@@ -1,1 +1,18 @@
 CravancheSite/Models/Connexion.php
+
+###> symfony/framework-bundle ###
+CravancheAdmin/GymAdmin/.env
+CravancheAdmin/GymAdmin/.env.test
+/CravancheAdmin/GymAdmin/public/bundles/
+/CravancheAdmin/GymAdmin/var/
+/CravancheAdmin/GymAdmin/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+/CravancheAdmin/GymAdmin/.phpunit
+/CravancheAdmin/GymAdmin/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/CravancheAdmin/GymAdmin/.web-server-pid
+###< symfony/web-server-bundle ###
