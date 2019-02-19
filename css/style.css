@@ -1663,7 +1663,7 @@ label {
 
 .feature-icon {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 @media (min-width: 641px) {
